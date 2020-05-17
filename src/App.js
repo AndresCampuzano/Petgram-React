@@ -1,10 +1,14 @@
 import React from 'react';
-import { Category } from './components/Category';
+import { ListOfCategories } from './components/ListOfCategories';
+import { GlobalStyles } from './GlobalStyles';
+import { ListOfPhotoCards } from './components/ListOfPhotoCards';
 
 const App = () => {
 	return (
 		<>
-			<Category />
+			<GlobalStyles />
+			<ListOfCategories />
+			<ListOfPhotoCards />
 		</>
 	);
 };
