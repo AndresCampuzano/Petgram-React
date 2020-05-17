@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+		"url": "git@github.com:AndresCampuzano/Petgram-React.git"
 	},
 	"keywords": [
 		"React",
@@ -19,9 +19,9 @@
 	"author": "Andres Campuzano",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+		"url": "https://github.com/AndresCampuzano/Petgram-React"
 	},
-	"homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+	"homepage": "https://github.com/AndresCampuzano/Petgram-React",
 	"devDependencies": {
 		"@babel/core": "^7.9.6",
 		"@babel/preset-env": "^7.9.6",
