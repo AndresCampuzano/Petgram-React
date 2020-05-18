@@ -44,9 +44,6 @@ export const ListOfCategories = () => {
 		</List>
 	);
 
-	if (loading) {
-		return 'Loading...';
-	}
 	return (
 		<>
 			{renderList()}
