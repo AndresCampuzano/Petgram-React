@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Article, ImgWrapper, Img, Button } from './styles';
 import { MdFavoriteBorder, MdFavorite } from 'react-icons/md';
-import { useLocalStorage } from '../hooks/uesLocalStorage';
-import { useNearScreen } from '../hooks/useNearScreen';
+import { useLocalStorage } from '../..//hooks/uesLocalStorage';
+import { useNearScreen } from '../../hooks/useNearScreen';
 
 const DEFAULT_IMAGE =
 	'https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_rabbits.jpg';
