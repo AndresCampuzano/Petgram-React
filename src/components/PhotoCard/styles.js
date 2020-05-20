@@ -6,7 +6,7 @@ export const Article = styled.article`
 `;
 
 export const ImgWrapper = styled.div`
-	/* border-radius: 10px; */
+	/* border-radius: 1px; */
 	display: block;
 	height: 0;
 	overflow: hidden;
@@ -17,7 +17,7 @@ export const ImgWrapper = styled.div`
 
 export const Img = styled.img`
 	${fadeIn()}
-	box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 10px 14px rgba(0, 0, 0, .2);
 	height: 100%;
 	object-fit: cover;
 	position: absolute;
